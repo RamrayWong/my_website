@@ -1,0 +1,21 @@
+:root{
+	--marg: 8px;
+}
+
+
+.photo {
+	height: 25%;
+	width: 25%;
+	margin-top: var(--marg);
+	margin-bottom: var(--marg);
+	margin-left: var(--marg);
+	margin-right: var(--marg);
+}
+
+.body {
+	margin-left: 18px;
+	margin-right: 18px;
+	display: flex;
+	align-items: flex-start;
+
+}

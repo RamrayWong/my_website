@@ -21,7 +21,6 @@ function App() {
 			</Routes>
 		</Router>
 		<div>
-			<img src='../../public/images/IMG_2785.jpg' alt = 'Saniya' width={500} height={500}>
 		</div>
 			
 	</>

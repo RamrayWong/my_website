@@ -1,14 +1,13 @@
 import '../../App.css';
+import './Home.css';
 import React from 'react';
 
 function Home() {
     return (
-        <div className='portfolio'>
-            <img src='../../public/images/IMG_2785.jpg' alt = 'Saniya' width={500} height={500} />
-            <h1>
-                SANIYA
-            </h1>
-        </div>
+        <body className='body'>
+            <img className='photo' src='images/img-1.jpg' alt='test image'/>
+            <img className='photo' src='images/IMG_2785.jpg' alt='test image'/>
+        </body>
         
     );
 }
